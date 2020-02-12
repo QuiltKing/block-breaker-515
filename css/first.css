@@ -1,0 +1,81 @@
+* {
+	margin: 0px;
+	padding: 0rem;
+	overflow: hidden;
+	color: blueviolet;
+	background-color: black;
+}
+
+.wrap {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 150px;
+}
+
+.top {
+	text-align: center;
+	font-size: 2.25rem;
+}
+
+#fate {
+	position: absolute;
+	top: 15%;
+	width: 70%;
+	height: 200px;
+}
+
+#fate div {
+	border: 0.125rem solid red;
+	width: 100px;
+	height: 30px;
+	float: left;
+}
+
+.scoreboard {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 450px;
+	border: 5px solid blue;
+	height: 100vh;
+}
+
+.archer {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	left: 0rem;
+}
+
+.saber {
+	position: absolute;
+	bottom: 0px;
+	left: 20%;
+}
+
+.saber img {
+	width: 200px;
+	height: 50px;
+}
+
+.ball {
+	position: absolute;
+	left: 20%;
+	top: 50%;
+}
+
+.ball img {
+	width: 25px;
+	height: 20px;
+}
+
+.scoreboard img {
+	width: 100%;
+	height: 95%;
+}
+
+.score_f {
+	display: flex;
+	flex-direction: row;
+}
